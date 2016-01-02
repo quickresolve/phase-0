@@ -76,3 +76,41 @@ Can you remember what each of the following does of the top of your head? Write 
 
 
 ##1.4 Forking and Cloning Reflection
+
+
+If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?
+
+Instructions to create, fork, and clone a repo-
+
+1. Create a Repo:
+
+>On your Github profile page click the + symbol at the top right
+>Select New Repository
+>Type in a short and memorable name
+>Select "public" for your repository visibility (This will enable others to view your work).
+>Add an "MIT License" to your repository.
+>Click "Create Repository" to complete the form.
+
+2. Fork a Repo:
+
+>When on another user’s repository that you’d like to fork, click the fork button on the top right of the page
+>Select which repository you would like it to be forked to
+>Github will redirect you to your copy of the repository
+
+3. Cloning a Repo:
+
+>Open your Terminal and check where you are using pwd
+    *You NEVER want to clone a repository into another local GitHub repository
+>Get the URL of your FORKED repo (copy the HTTPS or SSH URL)
+>In your Terminal type the following
+    git clone URL_THAT_YOU_COPIED
+>Once it is cloned and you see the command prompt again, type ls to see the folder with the same name as the repo you cloned
+>Navigate into this folder with cd and open it in Sublime to read and manipulate the files
+
+Forking a repository allows for open source development and the continual evolution of code with markers of the origin of that code. If you were to create a new repo using someone else’s code there wouldn’t be anyway for other people to track where that code came from and it would seem like you were trying to represent that code as your own original work.
+
+
+What struggles did you have setting up git and GitHub? What did you learn in the process?
+
+Setting up git and GitHub was a pretty seamless process, it just took much repetition in order to remember the commands and execute them without going back and reviewing my notes. In the process I learned patience and practice is key.
+
