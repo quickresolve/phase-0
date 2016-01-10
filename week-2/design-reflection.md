@@ -1,7 +1,7 @@
-##2.3 Introduction to Design and Site Planning
+#2.3 Introduction to Design and Site Planning
 
 
-#Reflections
+##Reflections
 
 1. What are the 6 Phases of Web Design?
 
@@ -64,4 +64,4 @@ The main things someone should know about design and user experience is that it 
 
 >Check out my site map!
 
-![Site Map](/imgs/site-map.png "Quick Resolve Site Map")
+![Site Map](/imgs/site-map-rev.png "Quick Resolve Site Map")
