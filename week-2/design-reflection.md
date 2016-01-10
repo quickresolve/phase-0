@@ -64,4 +64,4 @@ The main things someone should know about design and user experience is that it 
 
 >Check out my site map!
 
-![Site Map](/imgs/site-map-rev2.png "Quick Resolve Site Map")
+![Site Map](/.imgs/site-map-rev2.png "Quick Resolve Site Map")
