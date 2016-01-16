@@ -47,3 +47,27 @@ h4 {
   text-align: center;
   font-size:12px;
 }
+
+/*Reflections
+
+1) What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+The important things to know when linking an external file to an HTML file is how to reference the correct path to the css file, and how to properly reference the sections you are styling within your css file by denoting them with a period (.) for class, hash(#) for id, and greater than (>) or plus (+) to indicate pseudo relationships.
+
+2) What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+It took some experimentation to get the positioning close to the page we were emulating. Not being familiar with CSS positioning previously made it a trial and error process. We created a classes and IDs to specify unique element positioning when referencing within our CSS file.
+
+3) What CSS did you use to modify the element style (like size, color, etc.)
+
+The CSS we used to modify the element style included RGB hex-values, font-size, text align, and webkit selectors.
+
+4) Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+We did modify the HTML to include classes and ids. We chose classes for denoting similar sets of elements, for example a specific set of paragraphs. While, ids are used to denote a singular element within a set. This helps to differentiate among like elements while allowing you to also style them similarly.
+
+5) When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+When comparing the sites, I think that our code was cleaner and followed best practices more closely because the code base used a lot of inline html styling which would have to be repeated often and would take longer to alter if they wanted to make updates. Our site styled the page on a separate file which allowed for easy updates and referencing using the DOM.
+
+*/
