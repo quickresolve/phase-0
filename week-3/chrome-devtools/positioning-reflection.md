@@ -3,7 +3,7 @@
 ##Screen Shot
 
 1. Change the Colors
-![Colors](/imgs/1.ChangeColors.png)
+![Colors](./imgs/1.ChangeColors.png)
 
 2. Column
 ![Column](/imgs/2.Columns.png)
