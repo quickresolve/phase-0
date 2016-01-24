@@ -56,3 +56,35 @@ print "\n"
 
 puts markdown.to_html
 ```
+
+##Reflections
+
+1. How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+
+ Ruby handles these basic mathematical operations just like a calculator. Be mindful when combinging numbers and strings using these operators, you may need to convert from one to the other so that they match.
+
+ For example, you can’t really add a number to a string or multiply a string by another string.
+
+
+
+2. What is the difference between integers and floats?
+
+  Numbers without decimal points are called integers. Numbers with decimal points are usually called floating-point numbers or, more simply, floats.
+
+
+3. What is the difference between integer and float division?
+
+  The difference between float and integer division is that when dividing integers, the result will round up or down in order to output whole numbers, while when dividing floats the result will output to the nearest decimal place.
+
+
+4. What are strings? Why and when would you use them?
+
+  We refer to groups of letters in a program as strings. Strings can have punctuation, digits, symbols, and spaces in them...more than just letters. That last string doesn’t have anything in it at all; we call that an empty string.
+
+5. What are local variables? Why and when would you use them?
+
+  A local variable is a declaration, it has a name starting with a lower case letter or an underscore character. Local variables do not, like globals and instance variables, have the value nil before initialization. You would use them to declare values that you want to manipulate.
+
+6. How was this challenge? Did you get a good review of some of the basics?
+
+  This challenge was a good refresher of the material I learned prior to starting DBC.
