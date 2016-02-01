@@ -50,18 +50,40 @@ end
 
 
 # Person 4
-def my_array_deletion_method!(source, thing_to_delete)
-  source.dup
+
+def my_array_deletion_method!(array, x)
+
+  array.delete_if{|str| str.to_s.include?(x)}
+
 end
 
-def my_hash_deletion_method!(source, thing_to_delete)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+my_array_deletion_method!(i_want_pets, "a")
+
+p i_want_pets
+
+
+def my_hash_deletion_method!(hash, name)
+
+hash.delete_if{|key| key.include?(name)}
+
 end
 
-# Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
+my_hash_deletion_method!(my_family_pets_ages, "George")
+
+p my_family_pets_ages
+
+=begin
+Identify and describe the Ruby method(s) you implemented.
+
+The Ruby methods I implemented were .delete_if, .include?, and .to_s.
+
+> .delete_if - Deletes every key-value pair from array or hash for which block evaluates to true.
+
+>.include? - Returns true if the given object is present in self (that is, if any element == object), otherwise returns false.
+
+>.to_s - Creates a string representation of self.
+
+=end
 
 
 # Person 5
