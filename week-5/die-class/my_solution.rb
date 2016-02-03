@@ -1,6 +1,6 @@
 # Die Class 1: Numeric
 
-# I worked on this challenge [by myself, with: ]
+# I worked on this challenge by myself.
 
 # I spent [] hours on this challenge.
 
@@ -15,15 +15,18 @@
 
 class Die
   def initialize(sides)
-    # code goes here
+    @sides = sides
+    if sides < 1
+      raise ArgumentError
+    end
   end
 
   def sides
-    # code goes here
+    return @sides
   end
 
   def roll
-    # code goes here
+    return 1+rand(@sides)
   end
 end
 
