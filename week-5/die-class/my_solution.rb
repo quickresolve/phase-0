@@ -6,9 +6,10 @@
 
 # 0. Pseudocode
 
-# Input:
-# Output:
+# Input: sides
+# Output: random number
 # Steps:
+#Create Die class, initialize sides, raise argument error IF sides < 1, create method to return # of sides, create method to return random number.
 
 
 # 1. Initial Solution
