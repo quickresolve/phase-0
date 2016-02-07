@@ -106,8 +106,8 @@
 
 
 class CreditCard
-  def initialize(numbers)
-   unless numbers.to_s.length == 16
+  def initialize(number)
+   unless number.to_s.length == 16
      raise ArgumentError.new("The input has to be 16 digits long!")
      end
      @number = number
@@ -137,7 +137,8 @@ class CreditCard
    end
 end
 
-
+card = CreditCard.new(4408041234567901)
+card.check_card
 
 
 
