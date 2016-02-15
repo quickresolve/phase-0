@@ -1,6 +1,6 @@
  // Manipulating JavaScript Objects
 
-// I worked on this challenge: [by myself, with: ]
+// I worked on this challenge: by myself.
 
 // There is a section below where you will write your code.
 
@@ -16,7 +16,36 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
-var adam = {};
+var adam = {
+  name: "Adam",
+};
+
+var spouse = terah.spouse;
+terah.spouse = adam;
+
+terah.weight = 125;
+delete terah.eyeColor;
+terah.spouse.spouse = terah;
+
+var children = {};
+terah.children = {};
+
+var carson = {
+  name: "Carson"
+};
+terah.children.carson = carson;
+
+var carter = {
+  name: "Carter"
+};
+terah.children.carter = carter;
+
+var colton = {
+  name: "Colton"
+};
+terah.children.colton = colton;
+
+adam.children = terah.children;
 
 
 
@@ -32,8 +61,23 @@ var adam = {};
 // __________________________________________
 // Reflection: Use the reflection guidelines
 //
-//
-//
+/*
+
+What tests did you have trouble passing?
+What did you do to make it pass? Why did that work?
+
+I was able to get the tests to pass easily since I looked at them before writing my code using test driven development.
+
+How difficult was it to add and delete properties outside of the object itself?
+
+It is easy to add and delete properties outside of the object, once you understand the syntax and how to use methods in JS.
+
+
+What did you learn about manipulating objects in this challenge?
+
+Manipulating objects is very simple by using the dot method to call variables listed as part of the object.
+
+*/
 //
 //
 //
@@ -136,4 +180,4 @@ assert(
 
 console.log("\nHere is your final terah object:")
 console.log(terah)
-Status API Training Shop Blog About Pricing
+
