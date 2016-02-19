@@ -84,7 +84,7 @@ Steps -
 // Initial Solution
 function tallyBallet(object){
 for (var key in object) {
-  var slate = votes[voter]
+  var slate = object[key]
   for (var office in slate) {
     var officer = slate[office]
     if (voteCount[office][officer]){
@@ -97,26 +97,47 @@ for (var key in object) {
   }
 }
 
+tallyBallet(votes);
 
 
+function winner(object){
+  for (var key in object){
+    var officeVotes = object[key];
+    var sortedList = Object.keys(officeVotes).sort(function(a,b){return officeVotes[b]-officeVotes[a]});
+    officers[key] = sortedList[0];
+  }
+}
+
+tallyBallet(votes)
+winner(voteCount)
+console.log(officers)
 
 
 // __________________________________________
 // Refactored Solution
 
-
+// We refactored as we solved the problem.
 
 
 
 
 // __________________________________________
 // Reflection
+/*
+What did you learn about iterating over nested objects in JavaScript?
+
+Iterating over nested objects in JS is more complicated than iterating over hashes in Ruby, but once you get down the dot and hash methods of accessing the key-value pairs it becomes easier to work with.
+
+Were you able to find useful methods to help you with this?
+
+Utilizing the for function in JS was very helpful. The sort method to organize the data inside the object came in handy as well.
 
 
+What concepts were solidified in the process of working through this challenge?
 
+The concepts of accessing and manipulating nested objects in JS were solidified although I feel that I still need more experience to feel confident in my skills.
 
-
-
+*/
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
