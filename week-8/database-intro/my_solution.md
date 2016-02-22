@@ -32,4 +32,4 @@ SELECT * FROM table_name;
 
 
 
-![Database Schema](../DB-Schema.png)
+![Database Schema](/DB-Schema.png)
